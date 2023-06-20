@@ -147,8 +147,8 @@ public class FoodDeliveryApp {
 
     public static void main(String[] args) throws IOException {
         FoodDeliveryApp app = new FoodDeliveryApp();
-        app.loadRestaurantsFromCSV("D:\\Coding-Materials\\Java\\ShardaSwiggy\\src\\restaurants.csv");
-        app.loadDishesFromCSV("D:\\Coding-Materials\\Java\\ShardaSwiggy\\src\\dishes.csv");
+        app.loadRestaurantsFromCSV("C:\\Users\\Raihan karim\\Downloads\\ShardaSwiggy\\ShardaSwiggy\\src\\restaurants.csv");
+        app.loadDishesFromCSV("C:\\Users\\Raihan karim\\Downloads\\ShardaSwiggy\\ShardaSwiggy\\src\\dishes.csv");
         app.printRestaurantAndDishes();
         app.placeOrder();
     }
